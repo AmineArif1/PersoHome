@@ -1,0 +1,62 @@
+.gap2{
+    gap:1vw;
+}
+.flexNoGap{
+    display: flex;
+}
+.resendBasis{
+    width: 9vw;
+}
+.gap1{
+    gap:4vw;
+}
+.WhiteBg{
+    background-color: white !important;
+    border: 1px black solid !important;
+}
+.flexbig{
+    display: flex;
+    gap:2vw;
+    flex-direction: column;
+    
+}
+.alignCenter{
+    align-items: center;
+}
+
+p{
+margin:0;
+}
+.flex4{
+    display: flex;
+    justify-content: space-between;
+}
+.flex3{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.buttonEmail{
+    padding: 1vh 4vh;
+    background-color: blue;
+    color:white;
+    border-radius: 20px;
+}
+.colorBlue{
+    color:blue;
+}
+.secondSelection2{
+    margin-top: 17vh;
+}
+
+.imageCheck{
+    width: 10vw;
+}
+
+.signInButton{
+    width: 15vw;
+    height: 8vh;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+}

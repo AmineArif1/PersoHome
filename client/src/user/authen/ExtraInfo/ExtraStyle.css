@@ -1,0 +1,240 @@
+.thisBody{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(86deg, rgba(13,8,47,1) 12%, rgba(8,10,47,1) 48%, rgba(30,8,47,1) 70%);
+    font-family: 'Montserrat', sans-serif;
+}
+.flexthis{
+    display: flex;
+}
+.leftPage{
+    flex-basis: 38vw;
+    background-image: url("./img/bg-main-desktop.png");
+    background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.leftPage ul{
+color:white;    width: 45vw;
+    position: relative;
+    margin-right:1vw;
+    left:1vw;
+    z-index: 1;
+   
+
+}
+.rightPage{
+    position: relative;
+    z-index: 10000;
+    border-radius: 5px;
+    
+}
+.leftPage li{
+    padding: 3vh 0 3vh 4vw;
+    list-style-type: none;
+    z-index:10;
+    font-size: 1vw;
+
+}
+.leftPage h1{
+    font-size: 2vw;
+
+}
+.rightPage{
+    background-color: white;
+    flex-basis: 62vw;
+}
+.takeall{
+    height: 100vw;
+    gap:0;
+}
+
+
+.whilePickle{
+    position: absolute;
+    z-index: 1;
+    width: 45vw;
+    top:10vh;
+    left:7vw;
+}
+
+.draw{
+    background-color: white;
+    border-radius: 100px;
+    color:black;
+    position: relative;
+    z-index: -10;
+    border-right:0;
+    border: ;
+    margin:30px;
+    position:relative;
+    -moz-border-radius:5px 5px 0 0;
+    -webkit-border-radius:5px 5px 0 0;
+    border-radius: 80px;
+    
+}
+
+.line{
+
+width: 364px;
+height: 1px;
+border: 1.5px solid   rgb(15, 1, 106);
+
+
+}
+.flexColumn{
+    margin: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1vh;
+}
+.rightPage{
+    margin:10px;
+}
+.rightPage h1{
+
+    margin:0px;
+}
+.align-center{
+    align-items: center;
+}
+.rightPage input[type=text] {
+    border-width: 0px;
+    background-color: #F0F2F7;
+    padding: 0 1.2vw;
+    height: 7.2vh;
+    width: 100%;
+    border-radius: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 38vw;
+    margin: auto;
+    gap:2vh;
+}
+.next{
+    float:right;
+    width: 8vw;
+    height: 6vh;
+    border: 0;
+    background:  rgba(30,8,47,1);
+    color:white;
+    border-radius: 15px;
+    margin-top:3vh;
+    margin-right: 5vw;
+}
+.Head{
+    display: flex;
+    height: 10vh;
+    background-color: white;
+    justify-content: space-between;
+}
+.profileLitleDiv{
+    display: flex;
+    align-items: center;
+    gap:1vw;
+    margin-right: 1vw;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-column p{
+    margin: 0;
+}
+.logo{
+    margin-left: 1vw;
+}
+.carre{
+    background-color: white;
+    width: 20vw;
+    height: 6vh;
+    text-align: center;
+    
+    border-radius: 25px;
+    margin-top: 6vh;
+    /* margin-left: 28vw; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.carre p{
+    margin:0;
+    padding-left: 1vw;
+}
+.carre img{
+    padding-right: 1vw;
+}
+.form select{
+    border-radius: 0;
+    border-radius: 8px;
+}
+.width-small{
+    width: 20vw;;
+}
+.half{
+    width: 30vw;
+}
+.more-half{
+    width: 50vw;
+}
+.rightPage input[type=number]{
+    border-width: 0px;
+    background-color: #F0F2F7;
+    padding: 0 1.2vw;
+    height: 7.2vh;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.textareaFamille{
+    background-color: #F0F2F7;
+    border-width: 0;
+    border-radius: 10px;
+    width: 35vw;
+    height: 14vh;
+
+}
+.ProfilePreview{
+    width: 43vw;
+    height: 60vh;
+    border: 5px solid ;
+    margin: auto;
+    border-radius: 10px;
+}
+.profileImage{
+    
+    width: 10vw;
+    border-radius: 50%;
+}
+.cover{
+    width: 100%;
+    height: 20%;
+}
+.fcolumn{
+    flex-direction: column;
+    gap:5px;
+    align-items:center;
+    position: relative;
+    top:-7vh;
+}
+.selectthis{
+    font-size: 1.2vw;
+    margin-top: 0;
+}
+.precedent{
+    float:right;
+    width: 8vw;
+    height: 6vh;
+    border: 0;
+    background:  rgba(30,8,47,1);
+    color:white;
+    border-radius: 15px;
+    margin-top:3vh;
+    margin-right: 8vw;
+}

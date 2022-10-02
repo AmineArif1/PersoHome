@@ -1,0 +1,137 @@
+body{
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.big-container{
+    display: flex;
+    height: 100vw;
+
+}
+.temp-img{
+background-color: rgb(39, 1, 128);
+height: 100vh;
+width: 48vw;
+}
+.second-selection{
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 4.5%;;
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+    width: 34.375vw;
+
+
+  
+}
+.second-selection input[type=text]
+{
+    border-width: 0px;
+    background-color: #F0F2F7;
+    padding:0 1.2vw;
+    height:7.2vh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gend p{
+    margin: 0;
+}
+.gend{
+    border: 1px black solid;
+    margin: 0px 1.3vw;
+   padding: 0 0.5vw;
+   height:5vh;
+
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.gend *{
+    font-size: 1vw;
+}
+.label{
+    margin-bottom: 0;
+}
+.form-style{
+    display: flex;
+    gap:20px;
+
+}
+
+.circle_button{
+    width: 10px;
+    height: 10px;
+}
+.signupButton{
+    height: 6.3vh;
+    width: 20.556vw;
+    border-radius: 100px;
+    background-color:rgb(11, 24, 146) ;
+    color: white;
+
+   
+}
+.center_button{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.gendername{
+    font-size: 1.2vw;
+    font-weight:350;
+}
+.conditions{
+    font-size: 14px;
+    margin: 0;
+}
+.label{
+    font-weight:700;
+    padding-bottom: 10px;
+}
+.connectezvous{
+    font-size: 14;
+}
+.titleSignup{
+    font-weight: 800;
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+
+}
+.firstson{
+    flex-basis: 80vw;
+}
+.secondson{
+background-color: #F0F2F7;
+border-width: 0;
+text-align: center;
+width: 12vw;
+
+}
+.secondson :first-child{
+    opacity: .5;
+}
+.textbaht{
+   opacity: .6; 
+}
+.champObl{
+    color:red;
+    padding:0;
+    margin: 0;
+    text-align: center;
+
+}
+.emailTitle{
+    font-weight: 750;
+}
